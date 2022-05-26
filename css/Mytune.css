@@ -92,6 +92,7 @@ nav ul li:hover::after {
     text-align: right;
     padding: 30px;
     transition: all 1s;
+     cursor: pointer;
 }
 
 .text:hover {
