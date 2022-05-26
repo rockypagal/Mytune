@@ -96,6 +96,7 @@ nav ul li:hover::after {
 
 .text:hover {
     color: hotpink;
+   cursor: pointer;
 }
 
 .text h1 {
