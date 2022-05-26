@@ -1,0 +1,321 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+
+/*
+=================
+container1
+=================
+*/
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../pic/caucasian-woman-s-portrait-isolated-blue-background-multicolored-neon-light.jpg");
+    background-size: cover;
+/*    position: absolute;*/
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    height: 50px;
+/*    position:fixed;*/
+
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px 13px 13px 17px;
+
+    transition: all 0.5s ease 0s;
+}
+
+
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: 400;
+    color: white;
+    transition: .5s;
+}
+
+nav ul li a:hover {
+    color: hotpink;
+}
+
+.list {
+    padding-left: 25px;
+}
+
+nav ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: aqua;
+    display: block;
+    margin: auto;
+    transition: .5s;
+}
+
+nav ul li:hover::after {
+    width: 100%;
+    cursor: pointer;
+
+}
+
+.text {
+    /*
+   margin:50px 0 0 0;
+    width:600px;
+    height:300px;
+*/
+    margin: 50px 0 0 230px;
+    width: 400px;
+    height: 200px;
+    color: white;
+    text-align: right;
+    padding: 30px;
+    transition: all 1s;
+}
+
+.text:hover {
+    color: hotpink;
+}
+
+.text h1 {
+
+    font-size: 8.0rem;
+
+}
+
+/*
+=================
+container2
+=================
+*/
+
+.container2 {
+    text-align: center;
+    height: 100vh;
+    background: antiquewhite;
+    box-sizing: border-box;
+    background-image: linear-gradient(to right, #12c2e9, #FF0099);
+    background-size: cover;
+    color: white;
+}
+
+
+
+.music h1 {
+
+    padding-top: 20px;
+    font-size: 4.5rem;
+}
+
+
+
+.music h2 {
+    font-size: 3rem;
+    padding: 10px 0 30px 0;
+}
+
+
+
+.mt {
+    width: 1300px;
+    margin: auto;
+    font-size: 1.7rem;
+}
+
+.butimg {
+    font-size: 1.7rem;
+}
+
+.button {
+    padding: 30px 0 15px 0;
+
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    width: 160px;
+    height: 50px;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: all .5s;
+    background-image: linear-gradient(to right, #AA076B, #61045F);
+    color: white;
+    /*    box-shadow:5px 5px 1px black; */
+}
+
+button:hover {
+
+    width: 180px;
+    box-shadow: 7px 9px 10px #5C258D;
+
+}
+
+img {
+    padding-top: 40px;
+    width: 900px;
+}
+
+/*
+=================
+container3
+=================
+*/
+
+.container3 {
+    text-align: center;
+    height: 100vh;
+    background: antiquewhite;
+    box-sizing: border-box;
+    background-image: linear-gradient(to right, #833ab4, #fd1d1d);
+    background-size: cover;
+    color: white;
+}
+
+.movie h1 {
+
+    padding: 20px 0;
+    font-size: 4rem;
+}
+
+.movie h2 {
+    font-size: 3rem;
+    padding: 10px 0 30px 0;
+}
+
+/*
+=================
+container4
+=================
+*/
+.container4 {
+    text-align: center;
+    height: 100vh;
+    background: antiquewhite;
+    box-sizing: border-box;
+     background-image: url("../pic/caucasian-woman-s-portrait-isolated-blue-background-multicolored-neon-lifghtt.jpg");
+    background-size: cover;
+    color: white;
+}
+
+.fun{
+    width:800px;
+    padding:100px 0 0 50px;
+    font-size:2.5rem;
+}
+.giftcard{
+    width:100%;
+    padding-top:100px;
+}
+.giftcard img{
+    width:500px;
+    float:left;
+}
+
+.ct{
+    text-align: left;
+    width:500px;
+    float:left;
+    padding:85px 0 0 20px;
+}
+
+.ct p:nth-child(2) {
+    color:#fd1d1d;
+    padding-top:7px;
+}
+
+.ct a{
+
+    color:white;
+    text-decoration: none;
+    padding-top:7px;
+    display: inline-block;
+    transition: all .5s ;
+}
+
+.ct a:hover{
+
+    color:hotpink;
+    
+}
+
+
+/*
+=================
+footer
+=================
+*/
+
+footer{
+    background-image: linear-gradient(to right, #000046,#1CB5E0);
+    color:white;
+    
+    display: flex;
+    justify-content:space-around;
+    
+}
+
+.f1{
+    width:180px;
+    padding-left:20px;
+    padding:50px;
+    margin-left: 150px;
+    
+}
+
+footer ul li{
+    list-style: none;
+    
+}
+
+footer ul li a{
+   text-decoration: none;
+    color:white;
+    transition: all .5s;
+}
+
+footer ul li a:hover{
+   
+    color:hotpink;
+    
+}
+
+
+footer p{
+    display:inline-block;
+}
+
+.lonly{
+    text-align: center;
+    background-image: linear-gradient(to right, #000046,#1CB5E0);
+    color:white;
+}
+
+
+
+
+
+
+
+
